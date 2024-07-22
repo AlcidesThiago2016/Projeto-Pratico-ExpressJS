@@ -9,4 +9,8 @@ app.get("/welcome", function (req, res) {
     res.send("Seja Bem-Vindo a missão ExpressJS")
 })
 
+app.get("/mission", function (req, res) {
+    res.send("Esta é uma missão de ExpressJS")
+})
+
 app.listen(3000)
